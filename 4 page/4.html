@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+    <link rel="stylesheet" href="./4.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="http://127.0.0.1:5500/1%20page/1.html">Home</a></li>
+          <li><a href="http://127.0.0.1:5500/2%20page/2.html">About</a></li>
+          <li><a href="http://127.0.0.1:5500/3%20page/3.html">Skills</a></li>
+          <li><a href="http://127.0.0.1:5500/4%20page/4.html?">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="contact">
+      <h2>Contact <span>Me!</span></h2>
+      <form id="contactForm">
+        <div class="form-group">
+          <input type="text" id="fullName" placeholder="Full Name" required />
+          <input type="email" id="email" placeholder="Email Address" required />
+        </div>
+        <div class="form-group">
+          <input type="text" id="mobile" placeholder="Mobile Number" required />
+          <input
+            type="text"
+            id="subject"
+            placeholder="Email Subject"
+            required
+          />
+        </div>
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Submit</button>
+        <p id="successMessage" style="display: none; color: green">
+          Your message has been sent successfully!
+        </p>
+      </form>
+    </section>
+
+    <script src="./4.js"></script>
+  </body>
+</html>

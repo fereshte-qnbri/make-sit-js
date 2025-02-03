@@ -1,0 +1,91 @@
+/* تنظیمات کلی */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0f0f35;
+    color: white;
+    text-align: center;
+}
+
+/* نوار منو */
+header {
+    background: #02032b;
+    padding: 5px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+nav ul li a:hover {
+    color: #ff5733;
+}
+
+/* بخش معرفی */
+.hero {
+    padding-top: 50px ;
+}
+.highlight {
+    font-weight: bold;
+    color: white;
+}
+.portfolio {
+    font-weight: bold;
+    color: yellow;
+    font-style: italic;
+}
+
+/* دکمه‌ها */
+.btn {
+    background: #1e90ff;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.btn:hover {
+    background: #ff5733;
+}
+.img {
+width: 200px;
+height: 250px;
+border-radius: 50%;
+}
+/* استایل بخش HTML, CSS, JS */
+.tech-stack {
+    margin-top: 50px;
+}
+.code-box {
+    background: yellow;
+    color: black;
+    padding: 10px;
+    display: inline-block;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.a1 {
+    font-weight: bold;
+    color: rgb(131, 131, 5);
+    font-style: italic;
+}
